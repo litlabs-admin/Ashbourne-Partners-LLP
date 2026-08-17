@@ -4,6 +4,7 @@ import { ScrollReveal } from "@/components/animations/ScrollReveal";
 import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
 import { Eyebrow } from "@/components/ui/Eyebrow";
+import { brand } from "@/lib/assets";
 import type { ReactNode } from "react";
 
 const LAST_UPDATED = "18 August 2026";
@@ -120,7 +121,7 @@ export function PrivacyPolicyContent() {
             />
             <P>
               If you have any questions about this policy, contact us at{" "}
-              <EmailLink>hello@ashbournepartners.com</EmailLink>.
+              <EmailLink>{brand.email}</EmailLink>.
             </P>
           </Section>
 
@@ -260,7 +261,7 @@ export function PrivacyPolicyContent() {
             />
             <P>
               To exercise these rights, contact us at{" "}
-              <EmailLink>hello@ashbournepartners.com</EmailLink>. If you are not satisfied with our
+              <EmailLink>{brand.email}</EmailLink>. If you are not satisfied with our
               response, you have the right to complain to the UK Information Commissioner&apos;s
               Office (ICO) at <SiteLink>ico.org.uk</SiteLink>.
             </P>
@@ -310,7 +311,7 @@ export function PrivacyPolicyContent() {
             <div className="rounded-xl border border-border bg-surface p-5 text-ink">
               <p className="font-display text-[15px] font-bold">Ashbourne Partners LLP</p>
               <p className="mt-2 text-[14.5px]">
-                Email: <EmailLink>hello@ashbournepartners.com</EmailLink>
+                Email: <EmailLink>{brand.email}</EmailLink>
               </p>
               <p className="mt-1 text-[14.5px]">
                 Website: <SiteLink>ashbournepartners.com</SiteLink>

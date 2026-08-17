@@ -13,7 +13,8 @@ export const brand = {
   /** Conversational short form — used inline in body copy and headlines. */
   shortName: "Ashbourne",
   tagline: "Voice AI that answers every call",
-  email: "hello@ashbournepartners.com",
+  /** Contact address published on the privacy page. */
+  email: "ashbournepartnersllp@gmail.com",
   phoneDisplay: "+44 20 4525 8810",
   phoneHref: "tel:+442045258810",
   /** Every CTA on the site points here. External URL, so Button renders it as
